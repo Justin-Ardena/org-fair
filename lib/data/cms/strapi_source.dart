@@ -42,6 +42,7 @@ class StrapiEventSource implements EventSource {
     // EXPLAIN E3: Open one of the other two CMS files and compare. Which
     // lines differ, and which are the same? Why is the parsing the part
     // that changes most from one CMS to another?
+    // ignore: unused_local_variable
     final json = await getJson(client, uri, cms: name, headers: headers);
 
     // TODO 3 (Strapi): Turn the JSON into a List<FairEvent>.
